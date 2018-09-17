@@ -5,6 +5,12 @@ September 12, 2018
 Project #1 SixDays
  */
 
+/* Seante Jones
+AP CS A
+Period 1
+September 9/17/2018
+Six Days
+ */
 public class SixDays {
     public static void main(String[] args) {
         FirstVerse();
