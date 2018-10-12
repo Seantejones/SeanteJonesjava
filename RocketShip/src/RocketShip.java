@@ -23,17 +23,17 @@ public class RocketShip {
             for (int j = HEIGHT*2; j > i; j--) {
                 System.out.print(" ");
             }
-
-                for (int k = 0; k < i; k++) {
-                    System.out.print("/");
-                }
-                    System.out.print("**");
-                for (int l = 0; l < i; l++) {
-                    System.out.print("\\");
-                }
-                for (int g = HEIGHT*2; g > i; g--) {
-                    System.out.print(" ");
-                } System.out.println();
+            for (int k = 0; k < i; k++) {
+                System.out.print("/");
+            }
+                System.out.print("**");
+            for (int l = 0; l < i; l++) {
+                System.out.print("\\");
+            }
+            for (int g = HEIGHT*2; g > i; g--) {
+                System.out.print(" ");
+            }
+            System.out.println();
         }
     }
     // Generate the top part of the rocket
@@ -70,7 +70,7 @@ public class RocketShip {
             for (int j = 0; j <= i; j++) {
                 System.out.print("\\/");
             }
-            for (int k = HEIGHT-1; k > i; k--){
+            for (int k = HEIGHT-1; k > i; k--) {
                 System.out.print("..");
             }
             for (int j = 0; j <= i; j++) {
