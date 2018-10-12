@@ -1,5 +1,10 @@
+/* Seante Jones
+AP Computer Science A
+Period 1
+Rocket Ship Project
+ */
 public class RocketShip {
-    public static final int HEIGHT = 2;
+    public static final int HEIGHT = 3;
 
     public static void main(String[] args) {
         drawCone();
@@ -12,7 +17,6 @@ public class RocketShip {
         drawLine();
         drawCone();
     }
-
     // Generate the cone for the rocket
     public static void drawCone() {
         for(int i = 1; i < HEIGHT*2; i++) { //6
@@ -32,7 +36,6 @@ public class RocketShip {
                 } System.out.println();
         }
     }
-
     // Generate the top part of the rocket
     public static void drawTop() {
         for(int i = HEIGHT-1; i >= 0; i--) { //2
@@ -51,13 +54,11 @@ public class RocketShip {
             }
             for (int j = 0; j < i; j++) {
                 System.out.print(".");
-            } System.out.print("|");
+            }
+            System.out.print("|");
             System.out.println();
-
-
         }
     }
-
     // Generate the bottom part of the rocket
     public static void drawBottom(){
         for (int i = HEIGHT-1; i >= 0; i--) { //2
@@ -80,22 +81,15 @@ public class RocketShip {
             }
             System.out.print("|");
             System.out.println();
-
         }
     }
-
-
-
-
-
     // Generate the line between parts
     public static void drawLine() {
         System.out.print("+");
         for (int j = 0; j < HEIGHT*2; j++) { //6
             System.out.print("=*");
-
-        } System.out.print("+");
+        }
+        System.out.print("+");
         System.out.println();
     }
-
 }
