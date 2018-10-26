@@ -11,8 +11,8 @@ public class Distance {
         double answer2 = answer1 + distance(4, 28, 2, 8); //Distance from A to B to C
         double answer3 = answer1 + answer2 + distance(2, 8, 16, 10); //Distance from A to B to C to A
 
-        System.out.println("The distance from Tacoma to Gig Harbor is " + answer1 + " miles."); 
-        System.out.println("The distance from Tacoma to Gig Harbor to Steilacoom is " + answer2 + " miles."); //Prin
+        System.out.println("The distance from Tacoma to Gig Harbor is " + answer1 + " miles.");
+        System.out.println("The distance from Tacoma to Gig Harbor to Steilacoom is " + answer2 + " miles.");
         System.out.println("The distance from Tacoma to Gig Harbor to Steilacoom back to Tacoma is " + answer3 + " miles.");
     }
 
