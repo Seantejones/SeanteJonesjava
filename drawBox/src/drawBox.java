@@ -1,12 +1,15 @@
 public class drawBox {
+
+
+
     public static void main(String[] args){
         System.out.println("Draw Boxes");
-        drawBox();
-        drawBox();
-        drawBox();
+        drawBox(2, 3, 'a');
+        drawBox( 3, 4, 'b');
+        drawBox(4, 5, 'c');
         System.out.println("Complete");
     }
-    public static void drawBox(){
+    public static void drawBox(int height, int width, char box){
         System.out.println();
         drawTopBottom();
         drawSides();
@@ -14,11 +17,14 @@ public class drawBox {
         drawTopBottom();
 
     }
+
+
+
     public static void drawTopBottom(){
         System.out.println("+------+");
     }
     public static void drawSides(){
-        System.out.println("|      |");
+      System.out.println("|      |");
     }
 
 
